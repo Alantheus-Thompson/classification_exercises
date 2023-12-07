@@ -41,7 +41,7 @@ def prep_telco():
     return df_telco_churn
 
 
-def train_validate_test(df, target_column):
+def split_data(df, target_column):
     '''
    
     '''
